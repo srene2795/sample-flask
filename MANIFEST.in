@@ -1,0 +1,2 @@
+recursive-include mywebserver *
+recursive-include mywebserver/META-INF *
