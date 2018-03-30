@@ -1,5 +1,8 @@
 
 import nomad
+import sys
+
+print sys.argv
 
 job = {'Job': {'AllAtOnce': None,
   'Constraints': None,
@@ -32,7 +35,7 @@ job = {'Job': {'AllAtOnce': None,
      'Interval': 300000000000,
      'Mode': 'delay'},
     'Tasks': [{'Artifacts': None,
-      'Config': {'command': 'sudo', 'args': ["sh","/home/deploy.sh"]},
+      'Config': {'command': 'sudo', 'args': ["sh","/home/deploy.sh",sys.argv[1]]},
       'Constraints': None,
       'DispatchPayload': None,
       'Driver': 'raw_exec',
