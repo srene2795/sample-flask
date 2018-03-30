@@ -1,4 +1,4 @@
-python python_regsiter_job.py
+python python_register_job.py
 
 
 
