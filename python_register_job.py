@@ -32,7 +32,7 @@ job = {'Job': {'AllAtOnce': None,
      'Interval': 300000000000,
      'Mode': 'delay'},
     'Tasks': [{'Artifacts': None,
-      'Config': {'command': 'sudo', 'args': ["python","/home/srene-test/Hello.py"]},
+      'Config': {'command': 'sudo', 'args': ["sh","/home/deploy.sh"]},
       'Constraints': None,
       'DispatchPayload': None,
       'Driver': 'raw_exec',
@@ -45,7 +45,7 @@ job = {'Job': {'AllAtOnce': None,
             
       }],
     'Update': None}],
-  'Type': 'service',
+  'Type': 'batch',
   'VaultToken': None,
   'Version': None}}
 
