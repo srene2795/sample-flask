@@ -1,8 +1,8 @@
-sudo apt-get update
-sudo apt-get install python-pip
-sudo pip install pipenv
-sudo pipenv shell
-sudo pipenv install python-nomad
+apt-get update
+apt-get install python-pip
+pip install pipenv
+pipenv shell
+pipenv install python-nomad
 
 
 
