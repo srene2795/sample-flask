@@ -49,4 +49,4 @@ job = {'Job': {'AllAtOnce': None,
   'Version': None}}
 
 my_nomad = nomad.Nomad(host='10.21.0.10')
-response = my_nomad.job.register_job("example3", job)
+response = my_nomad.job.register_job("example4", job)
